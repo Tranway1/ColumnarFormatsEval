@@ -1,6 +1,24 @@
 # ColumnarFormatsEval
 This repository provides the necessary information and links to reproduce the experiments and results presented in the paper "A Deep Dive into Common Open Formats for Analytical DBMSs". 
 
+@article{10.14778/3611479.3611507,
+author = {Liu, Chunwei and Pavlenko, Anna and Interlandi, Matteo and Haynes, Brandon},
+title = {A Deep Dive into Common Open Formats for Analytical DBMSs},
+year = {2023},
+issue_date = {July 2023},
+publisher = {VLDB Endowment},
+volume = {16},
+number = {11},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3611479.3611507},
+doi = {10.14778/3611479.3611507},
+abstract = {This paper evaluates the suitability of Apache Arrow, Parquet, and ORC as formats for subsumption in an analytical DBMS. We systematically identify and explore the high-level features that are important to support efficient querying in modern OLAP DBMSs and evaluate the ability of each format to support these features. We find that each format has trade-offs that make it more or less suitable for use as a format in a DBMS and identify opportunities to more holistically co-design a unified in-memory and on-disk data representation. Our hope is that this study can be used as a guide for system developers designing and using these formats, as well as provide the community with directions to pursue for improving these common open formats.},
+journal = {Proc. VLDB Endow.},
+month = {aug},
+pages = {3044–3056},
+numpages = {13}
+}
+
 ## Datasets
 
 The experiments in the paper are based on the following datasets:
