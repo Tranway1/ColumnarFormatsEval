@@ -1,6 +1,6 @@
 # ColumnarFormatsEval
-This repository provides the necessary information and links to reproduce the experiments and results presented in the paper "A Deep Dive into Common Open Formats for Analytical DBMSs". 
-
+This repository provides the necessary information and links to reproduce the experiments and results presented in the paper "[A Deep Dive into Common Open Formats for Analytical DBMSs](https://people.csail.mit.edu/chunwei/pub/p3044-liu.pdf)". 
+```
 @article{10.14778/3611479.3611507,
 author = {Liu, Chunwei and Pavlenko, Anna and Interlandi, Matteo and Haynes, Brandon},
 title = {A Deep Dive into Common Open Formats for Analytical DBMSs},
@@ -18,6 +18,7 @@ month = {aug},
 pages = {3044–3056},
 numpages = {13}
 }
+```
 
 ## Datasets
 
